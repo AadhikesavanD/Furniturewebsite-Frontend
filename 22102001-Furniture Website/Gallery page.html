@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <style>
+        .next{
+            float: right;
+            word-spacing: 50px;
+        }
+        nav a{
+            text-decoration-line: none;
+            color: black;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 250px;
+        }
+        .gallery-item {
+            margin: 10px;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.2s;
+        }
+
+        .gallery-item:hover {
+            transform: scale(1.05);
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .description {
+            padding: 15px;
+            text-align: center;
+            background-color: #f9f9f9;
+        }
+    </style>
+</head>
+
+<body>
+    <header><br>
+        <img src="static\2.png" alt="logo" height="100px" width="150px">
+    <nav class="next">
+        <h4>
+            <a href="page1.html">Home</a>
+            <a href="page2.html">About</a>
+            <a href="page3.html">Gallery</a>
+            <a href="page4.html">Sign</a>
+        </h4>
+    </nav>
+</header>
+<div class="gallery">
+    <div class="gallery-item">
+        <img src="static\4.jpg" alt="Furniture 1">
+        <div class="description">Tea Table with Chairs</div>
+    </div>
+    <div class="gallery-item">
+        <img src="static\5.jpg" alt="Furniture 2">
+        <div class="description">Modern Chair</div>
+    </div>
+    <div class="gallery-item">
+        <img src="static\6.jpg" alt="Furniture 3">
+        <div class="description">Stylish Table</div>
+    </div>
+    <div class="gallery-item">
+        <img src="static\7.jpg" alt="Furniture 3">
+        <div class="description">Wooden Chairs</div>
+    </div>
+    <div class="gallery-item">
+        <img src="static\8.jpg" alt="Furniture 3">
+        <div class="description">Sofa for Living Room</div>
+    </div>
+    <div class="gallery-item">
+        <img src="static\9.jpg" alt="Furniture 3">
+        <div class="description">Sofa for Living Room</div>
+    </div>
+    <div class="gallery-item">
+        <img src="static\10.jpg" alt="Furniture 3">
+        <div class="description">Cusion Chair</div>
+    </div>
+   
+</div>
+
+</body>
+</html>
